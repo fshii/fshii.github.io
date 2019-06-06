@@ -195,6 +195,21 @@ body{
 overflow: hidden;
     top: -650;
     left: 310px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
+}
+
+.gallery:hover{
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.gallery2 {
+  border: 5px solid black;
+  float: left;
+  height: 350px;
+  position: relative;
+overflow: hidden;
+    top: -260px;
+    left: -570px;
 }
