@@ -141,6 +141,7 @@ body{
     left: 840;
     
 }
+
 .fish{
     width: 500px;
     height: 10px;
@@ -176,40 +177,47 @@ body{
 
 .sidebar{
     height: 360px;
-    width: 1400px;
+    width: 2800px;
     background-color:white;
     position:relative;
     overflow:visible;
     transform: rotate(-90deg);
-    top:200;
-    left: -520;
+    top:1215px;
+    left: -1230px;
     font-size: 150px;
     font-weight: bold;
 }
 
-.gallery {
-  border: 5px solid black;
+.row1 {
+  border: 4px solid black;
   float: left;
-  height: 350px;
+  height: 400px;
   position: relative;
-overflow: hidden;
-    top: -650;
-    left: 310px;
-    margin-left: 20px;
+  overflow: hidden;
+    top: -635px;
+    left: 220px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 
-.gallery:hover{
+.row1:hover{
     opacity: 0.5;
     transition-duration: 0.5s;
 }
 
-.gallery2 {
-  border: 5px solid black;
+.row2 {
+  border: 4px solid black;
   float: left;
-  height: 350px;
+  height: 400px;
   position: relative;
-overflow: hidden;
+  overflow: hidden;
     top: -260px;
-    left: -570px;
+    left: -720px;
+    margin-left:7px;
+    margin-top: 10px;
+}
+
+.row2:hover{
+    opacity: 0.5;
+    transition-duration: 0.5s;
 }
