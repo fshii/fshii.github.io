@@ -3,7 +3,6 @@ body{
    background-color: #f6f6f6;
 }
 .header{
-    width: 730;
     font-family: arial;
     font-size: 60pt;
     font-weight: bold;
@@ -27,7 +26,6 @@ body{
     position: relative;
     margin-top: -20px;
     margin-left: 160px;
-    width: 560px;
     bottom: 415px;
     left: 733px;
 }
@@ -168,11 +166,6 @@ body{
     left: 1055px;
     transform: rotate(90deg);
     -webkit-text-fill-color: #111111;
-}
-.hello{
-    position:absolute;
-    width:60%;
-    left:20%;
 }
 
 .sidebar{
